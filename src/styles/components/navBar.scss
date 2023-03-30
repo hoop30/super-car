@@ -13,6 +13,21 @@
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
 
+    .logo {
+        width: auto;
+        height: 80%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
     nav {
         width: 50%;
 
@@ -23,6 +38,90 @@
             align-items: center;
             width: 100%;
             max-width: 400px;
+
+            li>a {
+                padding: 5px 10px;
+                transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+                &:hover {
+                    box-shadow: -2px 2px 0 #d0d0d0;
+                }
+            }
+        }
+
+        @media screen and (max-width: 780px) {
+            position: absolute;
+            z-index: 90;
+            right: -260px;
+            top: 50px;
+            height: calc(100vh - 50px);
+            width: 260px;
+            background: var(--primary);
+            transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+            &.show {
+                right: 0;
+            }
+
+            ul {
+                flex-direction: column;
+                gap: 25px;
+                padding: 50px;
+
+                li {
+                    width: 100%;
+                    text-align: center;
+
+                    a {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 780px) {
+        height: 50px;
+        padding: 0 30px;
+
+        .menu-btn {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            position: relative;
+            width: 24px;
+            height: 20px;
+
+            span {
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                background: #fff;
+                border-radius: 2px;
+                transition: 0.3s ease;
+
+                &.s1 {
+                    transform: translateY(-8px);
+                    width: 45%;
+                }
+
+                &.s2 {
+                    transform: translateY(8px);
+                    width: 65%;
+                }
+            }
+            &:hover {
+                span {
+                    &.s1 {
+                        width: 65%;
+                    }
+
+                    &.s2 {
+                        width: 45%;
+                    }
+                }
+            }
         }
     }
 }

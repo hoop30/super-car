@@ -18,5 +18,16 @@
         font-style: italic;
         font-family: 'Ropa Sans', sans-serif;
         font-weight: 400;
+
+    }
+    
+    @media screen and (max-width: 560px) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 40px;
+
+        p, h1 {
+            font-size: 32px;
+        }
     }
 }

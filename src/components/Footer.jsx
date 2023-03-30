@@ -11,7 +11,7 @@ export default function Footer() {
             <li><a href="/"><img src="./logo/facebook.png" alt="" /></a></li>
             <li><a href="/"><img src="./logo/twiter.png" alt="" /></a></li>
             <li><a href="/"><img src="./logo/pinterest.png" alt="" /></a></li>
-            <li><a href="/"><img src="./logo/linkedin.png" alt="" /></a></li>
+            <li><a href="/"><img src="./logo/logo linkedin.png" alt="" /></a></li>
         </ul> 
     </footer>
   )
