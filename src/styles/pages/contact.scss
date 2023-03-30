@@ -1,0 +1,169 @@
+.contact {
+    position: relative;
+    height: 800px;
+
+    .overlay {
+        width: 100vw;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .card {
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        padding: 0 30px;
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -10;
+            width: 100%;
+            height: 100%;
+            filter: brightness(0.2);
+            overflow: hidden;
+
+            img {
+                position: relative;
+                width: 180%;
+                height: 180%;
+                object-fit: cover;
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            font-family: "Ropa Sans", sans-serif;
+            font-size: 28px;
+        }
+
+        .formAlert {
+            height: 17px;
+            width: 100%;
+            font-family: "Ropa Sans", sans-serif;
+            text-align: center;
+        }
+
+        form {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+
+            .input {
+                display: flex;
+                flex-direction: column-reverse;
+                position: relative;
+                padding-top: 10px;
+
+                & + .input {
+                    margin-top: 10px;
+                }
+
+                &.med {
+                    width: 60%;
+                }
+                &.min {
+                    width: 40%;
+                }
+
+                input,
+                textarea {
+                    border: 0;
+                    padding: 0;
+                    z-index: 1;
+                    background-color: transparent;
+                    border-bottom: 2px solid #eee;
+                    font: inherit;
+                    font-size: 14px;
+                    line-height: 30px;
+                    font-family: "Ropa Sans", sans-serif;
+                    max-height: 180px;
+                    min-height: 40px;
+                    max-width: 100%;
+                    min-width: 260px;
+
+                    &:focus,
+                    &:valid {
+                        outline: 0;
+                        border-bottom-color: #665856;
+
+                        & + .input_label {
+                            color: #665856;
+                            top: -8px;
+                        }
+                    }
+                }
+
+                .input_label {
+                    color: #8597a3;
+                    position: absolute;
+                    top: 18px;
+                    transition: all 0.3s;
+                }
+            }
+
+            button {
+                background: var(--secondary);
+                border: none;
+                width: fit-content;
+                padding: 5px 25px;
+                margin-top: 20px;
+                border-radius: 8px;
+                cursor: pointer;
+                width: 79px;
+                height: 26px;
+            }
+        }
+    }
+}
+
+.loader {
+    height: 100%;
+    aspect-ratio: 1/1;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    
+    &::after {
+        content: "";
+        box-sizing: border-box;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 220%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        border: 3px solid;
+        border-color: #ff3d00 transparent;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
