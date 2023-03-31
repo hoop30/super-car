@@ -43,4 +43,55 @@
             }
         }
     }
+
+    @media screen and (max-width: 1070px) {
+        section {
+            .article1, .article2 {
+                .text {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 950px) {
+        section {
+
+            .article1, .article2 {
+                gap: 40px;
+                
+                .img {
+                    width: 300px;
+                }
+
+                .text {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 870px) {
+        section {
+
+            .article1, .article2 {
+                flex-direction: column;
+                align-items: center;
+                
+                .img {
+                    width: 80%;
+                }
+                
+                .text {
+                    width: 100%;
+                    font-size: 18px;
+                    gap: 20px;
+                }
+            }
+
+            .article2 {
+                flex-direction: column-reverse;
+            }
+        }
+    }
 }
