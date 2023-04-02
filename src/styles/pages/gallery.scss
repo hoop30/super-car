@@ -1,14 +1,13 @@
 .gallery {
     padding-top: 85px;
-    height: calc(100vh - 130px);
     .content {
-        height: 78%;
-        background: gray;
+        height: 600px;
     }
 
     .slider {
-        height: 22%;
-        transform: translate(-20px, -45px);
+        transform: translateX(-20px);
+        background: var(--primary);
+
         .swiper {
             overflow: visible;
 
@@ -74,8 +73,60 @@
                             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                         }
                     }
+
+                    @media screen and (max-width: 1270px) {
+                        &.swiper-slide-active {
+                            transform: scale(1.5, 1.5) translateY(-50px);
+                            .price {
+                                transform: translateY(52px);
+                            }
+                        }
+                        &.swiper-slide-next,
+                        &.swiper-slide-prev {
+                            transform: scale(1.2, 1.2) translateY(-35px);
+                        }
+                    }
+
+                    @media screen and (max-width: 800px) {
+                        &.swiper-slide-active {
+                            transform: scale(1.5, 1.5) translateY(-30px);
+                            .price {
+                                transform: translateY(52px);
+                                padding: 4px 7px;
+                            }
+                        }
+                        &.swiper-slide-next,
+                        &.swiper-slide-prev {
+                            transform: scale(1.2, 1.2) translateY(-15px);
+                        }
+                    }
+
+                    @media screen and (max-width: 540px) {
+                        &.swiper-slide-active {
+                            .price {
+                                transform: translateY(30px);
+                                font-size: 10px;
+                            }
+                        }
+                        
+                    }
                 }
             }
+        }
+    }
+
+    @media screen and (max-width: 1150px) {
+
+        .content {
+            height: 700px;
+        }
+    }
+
+    @media screen and (max-width: 780px) {
+        padding-top: 50px;
+
+        .content {
+            height: 700px;
         }
     }
 }

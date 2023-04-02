@@ -1,29 +1,21 @@
 {
     "0": {
-        "brand": "merceders",
+        "brand": "mclaren",
+        "model": "720s",
+        "speed": "340",
+        "power": "720",
+        "motor": "V8 4.0 biturbo",
+        "description": "Une supercar légère et dynamique, s'inspirant directement des forces de la nature. En harmonie avec les éléments. Prête à affronter tous les défis. Et farouchement rapide."
+    },
+    "1": {
+        "brand": "mercedes",
         "model": "amg gt R",
         "speed": "318",
         "power": "585",
         "motor": "8 cilyndre V 3L9",
         "description": "La Mercedes AMG GT R est équipée d'un moteur longitudinal avant huit cylindres en V suralimenté développant un couple maximum de 700 Nm dès 1900 trs/min et une puissance maximum de 585 ch à 6250 trs/min transmise aux roues arrières de 20 pouces par le biais d'une boite de vitesse automatique à 7 rapports."
     },
-    "1": {
-        "brand": "aston martin",
-        "model": "vantage",
-        "speed": "314",
-        "power": "510",
-        "motor": "V8 4,0l double turbo",
-        "description": "Élégance sportive et agilité Véritable voiture de course, la Vantage offre vitesse, agilité et sensations fortes à ceux qui ont la chance de s'asseoir derrière son volant."
-    },
     "2": {
-        "brand": "renault",
-        "model": "clio wiliams",
-        "speed": "215",
-        "power": "150",
-        "motor": "4 cylindres en ligne",
-        "description": "Un gros moteur dans une petite caisse a toujours été la philosophie des sportives de la régie. En 1993, Renault avait besoin d'un moteur 2 litres dans sa Clio pour pouvoir s'engager en rallye. Qu'à cela ne tienne, s'il faut un 2 litres à la Clio, elle en aura un !"
-    },
-    "3": {
         "brand": "ferrari",
         "model": "f8 tributo",
         "speed": "340",
@@ -31,60 +23,60 @@
         "motor": "V8 Turbo",
         "description": "La Ferrari Roma, le nouveau coupé 2+ à moteur central avant du Cheval Cabré, se caractérise par des proportions raffinées et un design intemporel associés à des performances et une tenue de route sans précédent."
     },
+    "3": {
+        "brand": "ferrari",
+        "model": "roma",
+        "speed": "320",
+        "power": "620",
+        "motor": "V8 4.0 bi-turbo 32 V à injection directe, à 90°",
+        "description": "La Ferrari Roma, le nouveau coupé 2+ à moteur central avant du Cheval Cabré, se caractérise par des proportions raffinées et un design intemporel associés à des performances et une tenue de route sans précédent."
+    },
     "4": {
-        "brand": "",
-        "model": "",
-        "speed": "",
-        "power": "",
-        "motor": "",
-        "description": ""
+        "brand": "lotus",
+        "model": "Emira",
+        "speed": "390",
+        "power": "400",
+        "motor": "V6 SUPERCHARGED",
+        "description": "La Lotus Emira réinvente la supercar, avec une dynamique de conduite hors pair, une apparence originale et un confort optimisé pour une utilisation quotidienne."
     },
     "5": {
-        "brand": "",
-        "model": "",
-        "speed": "",
-        "power": "",
-        "motor": "",
-        "description": ""
+        "brand": "lamborghini",
+        "model": "Huracán EVO STO",
+        "speed": "335",
+        "power": "650",
+        "motor": "V10 5,2 L",
+        "description": "La Huracán EVO STO a été conçue pour décupler le frisson de la conduite. Couleurs, odeurs et sons fusionnent avec un design séduisant et des matériaux ultralégers."
     },
     "6": {
-        "brand": "",
-        "model": "",
-        "speed": "",
-        "power": "",
-        "motor": "",
-        "description": ""
+        "brand": "mclaren",
+        "model": "artura",
+        "speed": "330",
+        "power": "680",
+        "motor": "V6 bi-turbo 3.0 à 120°",
+        "description": "Avec l'Artura, tout a commencé avec une page blanche. Le cœur de la McLaren Carbon Fibre Lightweight Architecture (MCLA) est nouveau. Comme le groupe motopropulseur hybride hautes performances."
     },
     "7": {
-        "brand": "",
-        "model": "",
-        "speed": "",
-        "power": "",
-        "motor": "",
-        "description": ""
+        "brand": "renault",
+        "model": "clio williams",
+        "speed": "215",
+        "power": "150",
+        "motor": "4 cylindres en ligne",
+        "description": "Un gros moteur dans une petite caisse a toujours été la philosophie des sportives de la régie. En 1993, Renault avait besoin d'un moteur 2 litres dans sa Clio pour pouvoir s'engager en rallye. Qu'à cela ne tienne, s'il faut un 2 litres à la Clio, elle en aura un !"
     },
     "8": {
-        "brand": "",
-        "model": "",
-        "speed": "",
-        "power": "",
-        "motor": "",
-        "description": ""
+        "brand": "lamborghini",
+        "model": "Revuelto",
+        "speed": "349",
+        "power": "1015",
+        "motor": "Hybride essence rechargeable : V12 atmosphérique hybride",
+        "description": "Le Revuelto marque le début d'ne nouvelle ère pour Lamborghini, qui a exploité la puissance de la technologie d'hybridation pour créer le premier HPEV (High Performance Electrified Vehicle)."
     },
     "9": {
-        "brand": "",
-        "model": "",
-        "speed": "",
-        "power": "",
-        "motor": "",
-        "description": ""
-    },
-    "10": {
-        "brand": "",
-        "model": "",
-        "speed": "",
-        "power": "",
-        "motor": "",
-        "description": ""
+        "brand": "aston martin",
+        "model": "vantage",
+        "speed": "314",
+        "power": "510",
+        "motor": "V8 4,0l double turbo",
+        "description": "Élégance sportive et agilité Véritable voiture de course, la Vantage offre vitesse, agilité et sensations fortes à ceux qui ont la chance de s'asseoir derrière son volant."
     }
 }
