@@ -1,7 +1,6 @@
 import './App.scss';
 import Home from './pages/Home';
 import NavBar from 'components/NavBar';
-import Header from 'components/Header';
 import Footer from 'components/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Services from 'pages/Services';
@@ -14,15 +13,14 @@ function App() {
     <div className="App">
       <header>
         <NavBar />
-        {/* <Header /> */}
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/gallery" element={<Gallery />}/>
-          <Route path="/services" element={<Services />}/>
-          <Route path="/contact" element={<Contact />}/>
-          <Route path="/about" element={<About />}/>
+          <Route path="/super-car/home" element={<Home />}/>
+          <Route path="/super-car/gallery" element={<Gallery />}/>
+          <Route path="/super-car/services" element={<Services />}/>
+          <Route path="/super-car/contact" element={<Contact />}/>
+          <Route path="/super-car/about" element={<About />}/>
         </Routes>
       </main>
       <Footer />
