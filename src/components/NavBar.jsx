@@ -22,11 +22,11 @@ export default function NavBar() {
             </div>
             <nav id='menuList' onClick={openMenu}>
                 <ul>
-                    <li><a href="/super-car/home">Home</a></li>
+                    <li><a href="/super-car">Home</a></li>
                     <li><a href="/super-car/gallery">Gallery</a></li>
-                    <li><a href="/super-car/services">Services</a></li>
-                    <li><a href="/super-car/contact">Contact</a></li>
-                    <li><a href="/super-car/about">About</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
             </nav>
         </div>

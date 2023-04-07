@@ -16,11 +16,11 @@ function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/super-car/home" element={<Home />}/>
+          <Route path="/super-car" element={<Home />}/>
           <Route path="/super-car/gallery" element={<Gallery />}/>
-          <Route path="/super-car/services" element={<Services />}/>
-          <Route path="/super-car/contact" element={<Contact />}/>
-          <Route path="/super-car/about" element={<About />}/>
+          <Route path="/services" element={<Services />}/>
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="/about" element={<About />}/>
         </Routes>
       </main>
       <Footer />
