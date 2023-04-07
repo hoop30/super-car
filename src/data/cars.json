@@ -28,12 +28,12 @@
         "model": "roma",
         "speed": "320",
         "power": "620",
-        "motor": "V8 4.0 bi-turbo 32 V à injection directe, à 90°",
+        "motor": "V8 4.0 bi-turbo 32 V",
         "description": "La Ferrari Roma, le nouveau coupé 2+ à moteur central avant du Cheval Cabré, se caractérise par des proportions raffinées et un design intemporel associés à des performances et une tenue de route sans précédent."
     },
     "4": {
         "brand": "lotus",
-        "model": "Emira",
+        "model": "emira",
         "speed": "390",
         "power": "400",
         "motor": "V6 SUPERCHARGED",
@@ -65,10 +65,10 @@
     },
     "8": {
         "brand": "lamborghini",
-        "model": "Revuelto",
+        "model": "revuelto",
         "speed": "349",
         "power": "1015",
-        "motor": "Hybride essence rechargeable : V12 atmosphérique hybride",
+        "motor": "Hybride rechargeable - V12 atmosphérique",
         "description": "Le Revuelto marque le début d'ne nouvelle ère pour Lamborghini, qui a exploité la puissance de la technologie d'hybridation pour créer le premier HPEV (High Performance Electrified Vehicle)."
     },
     "9": {

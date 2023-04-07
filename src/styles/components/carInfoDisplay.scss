@@ -5,7 +5,7 @@
         flex-direction: column;
         align-items: center;
         background: var(--darkPrimary);
-        padding-bottom: 70px;
+        height: 80%;
 
         .model {
             width: fit-content;
@@ -23,7 +23,7 @@
                 "mini desc info";
             background: var(--primary);
             width: 100%;
-            height: 450px;
+            height: 70%;
             font-family: "Ropa Sans", sans-serif;
 
             .miniature {
@@ -102,7 +102,6 @@
             }
 
             @media screen and (max-width: 1150px) {
-                height: 800px;
 
                 .miniature {
                     gap: 10px;
@@ -121,19 +120,19 @@
             }
         }
         @media screen and (max-width: 780px) {
-            padding-bottom: 40px;
 
             .model {
                 font-size: 45px;
             }
 
             .card {
-                grid-template-rows: 25% 15% 50% 10%;
+                grid-template-rows: 25% 15% 40% 20%;
                 grid-template-areas:
                     "mini mini mini"
                     "motor motor info"
                     "img img info"
                     "desc desc info";
+                height: 80%;
 
                 .miniature {
                     flex-direction: row;
@@ -147,7 +146,7 @@
                 }
 
                 .motor {
-                    font-size: 50px;
+                    font-size: 36px;
                 }
 
                 .info {

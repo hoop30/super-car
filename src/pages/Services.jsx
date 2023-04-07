@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Services() {
 
@@ -33,7 +34,7 @@ export default function Services() {
                     <p>
                         Le showroom peut proposer des services de maintenance, de réparation et d'entretien pour les voitures, y compris des programmes de garantie et des plans d'entretien régulier pour aider les clients à maintenir leurs véhicules en bon état.
                     </p>
-                    <a href="/contact">Contact</a>
+                    <Link to={"/contact"}>Contact</Link>
                 </div>
             </section>
 
@@ -49,7 +50,7 @@ export default function Services() {
                     <p>
                         Le showroom peut offrir une variété de modèles de voitures neuves et d'occasion, avec des options de financement et de leasing pour aider les clients à trouver la voiture de leurs rêves.
                     </p>
-                    <a href="/contact">Contact</a>
+                    <Link to={"/contact"}>Contact</Link>
                 </div>
             </section>
 
@@ -65,7 +66,7 @@ export default function Services() {
                     <p>
                         Le showroom peut offrir des essais routiers gratuits pour permettre aux clients de tester les voitures avant de prendre une décision d'achat. Les clients peuvent également bénéficier de conseils et de recommandations personnalisées de la part de professionnels de l'automobile pour les aider à choisir la voiture qui correspond le mieux à leurs besoins et à leur budget.
                     </p>
-                    <a href="/contact">Contact</a>
+                    <Link to={"/contact"}>Contact</Link>
                 </div>
             </section>
 

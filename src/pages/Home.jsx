@@ -1,5 +1,6 @@
 import Header from 'components/Header'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
@@ -19,7 +20,7 @@ export default function Home() {
                         <p>
                             McLaren made its first hybrid car, the P1, in 2014 and 2015. Following the birth of the Speedtail in 2019.
                         </p>
-                        <a href="/">read more...</a>
+                        <Link to={"/gallery"}>read more...</Link>
                     </div>
                 </section>
                 <section>
@@ -29,7 +30,7 @@ export default function Home() {
                         <p>
                             To the public's attention after the 2020 Stingray entered the production stage as a standard model.
                         </p>
-                        <a href="/">read more...</a>
+                        <Link to={"/gallery"}>read more...</Link>
                     </div>
                     <div className='img'>
                         <img src="./img/lamborghini.jpg" alt="" width='530' height='330' />
@@ -46,7 +47,7 @@ export default function Home() {
                         <p>
                             Will be Ferrari's first plug-in hybrid car and engineered to be faster than the LaFerrari.
                         </p>
-                        <a href="/">read more...</a>
+                        <Link to={"/gallery"}>read more...</Link>
                     </div>
                 </section>
             </div></>

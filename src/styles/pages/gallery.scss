@@ -1,15 +1,17 @@
 .gallery {
     padding-top: 85px;
-    .content {
-        height: 600px;
-    }
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 
     .slider {
         transform: translateX(-20px);
         background: var(--primary);
+        height: 20%;
 
         .swiper {
             overflow: visible;
+            height: 100%;
 
             .swiper-wrapper {
                 display: flex;
@@ -28,7 +30,7 @@
                         justify-content: center;
                         align-items: center;
                         width: 70%;
-                        height: 50%;
+                        height: 70%;
                         padding: 20px;
                         background: var(--secondary);
 
@@ -77,9 +79,6 @@
                     @media screen and (max-width: 1270px) {
                         &.swiper-slide-active {
                             transform: scale(1.5, 1.5) translateY(-50px);
-                            .price {
-                                transform: translateY(52px);
-                            }
                         }
                         &.swiper-slide-next,
                         &.swiper-slide-prev {
@@ -91,7 +90,6 @@
                         &.swiper-slide-active {
                             transform: scale(1.5, 1.5) translateY(-30px);
                             .price {
-                                transform: translateY(52px);
                                 padding: 4px 7px;
                             }
                         }
@@ -104,11 +102,13 @@
                     @media screen and (max-width: 540px) {
                         &.swiper-slide-active {
                             .price {
-                                transform: translateY(30px);
+                                transform: translateY(45px);
                                 font-size: 10px;
                             }
                         }
-                        
+                        .img {
+                            height: 50%;
+                        }
                     }
                 }
             }
@@ -116,17 +116,10 @@
     }
 
     @media screen and (max-width: 1150px) {
-
-        .content {
-            height: 700px;
-        }
+        transform: translateY(0);
     }
 
     @media screen and (max-width: 780px) {
         padding-top: 50px;
-
-        .content {
-            height: 700px;
-        }
     }
 }

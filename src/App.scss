@@ -22,6 +22,6 @@ body {
   background: var(--primary);
 }
 
-body, html {
-  overflow-x: hidden;
+.App {
+  overflow: hidden;
 }

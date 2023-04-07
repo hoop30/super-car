@@ -22,7 +22,7 @@ export default function Gallery() {
             </section>
             <section className="slider">
                 <Swiper
-                    slidesPerView={4}
+                    slidesPerView={3}
                     loop={true}
                     centeredSlides={true}
                     className="mySwiper"
@@ -30,8 +30,11 @@ export default function Gallery() {
                         swipeData()
                     }, 500)}
                     breakpoints={{
-                        810: {
+                        1100: {
                             slidesPerView: 6,
+                        },
+                        630: {
+                            slidesPerView: 4,
                         }
                     }}
                 >

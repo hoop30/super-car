@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -7,11 +8,11 @@ export default function Footer() {
             <img src="./img/background.jpg" alt="" />
         </div>
         <ul>
-            <li><a href="/"><img src="./logo/contact.png" alt="" width='50' height='50'/></a></li>
-            <li><a href="/"><img src="./logo/facebook.png" alt="" width='50' height='50'/></a></li>
-            <li><a href="/"><img src="./logo/twitter.png" alt="" width='50' height='50'/></a></li>
-            <li><a href="/"><img src="./logo/pinterest.png" alt="" width='50' height='50'/></a></li>
-            <li><a href="/"><img src="./logo/linkedin.png" alt="" width='50' height='50'/></a></li>
+            <li><Link to={"/"}><img src="./logo/contact.png" alt="" width='50' height='50'/></Link></li>
+            <li><Link to={"/"}><img src="./logo/facebook.png" alt="" width='50' height='50'/></Link></li>
+            <li><Link to={"/"}><img src="./logo/twitter.png" alt="" width='50' height='50'/></Link></li>
+            <li><Link to={"/"}><img src="./logo/pinterest.png" alt="" width='50' height='50'/></Link></li>
+            <li><Link to={"/"}><img src="./logo/linkedin.png" alt="" width='50' height='50'/></Link></li>
         </ul> 
     </footer>
   )
